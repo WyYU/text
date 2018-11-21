@@ -1,0 +1,17 @@
+{
+  "core.repositoryformatversion": [
+    "0"
+  ], 
+  "core.filemode": [
+    "true"
+  ], 
+  "remote.origin.url": [
+    "ssh://huajie@192.168.11.200:29418/exercise/manifest"
+  ], 
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ], 
+  "remote.origin.fetch": [
+    "+refs/heads/*:refs/remotes/origin/*"
+  ]
+}
